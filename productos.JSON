@@ -1,0 +1,42 @@
+[
+    {
+        "id": "13820",
+        "nombre": "RECORTE 80\/20",
+        "especie": "CERDO",
+        "presentacion": "FRESCO",
+        "unidad": "CAJA",
+        "vida": "9"
+    },
+    {
+        "id": "13813",
+        "nombre": "GRASA",
+        "especie": "CERDO",
+        "presentacion": "FRESCO",
+        "unidad": "CAJA",
+        "vida": "9"
+    },
+    {
+        "id": "13817",
+        "nombre": "PIERNA SIN HUESO",
+        "especie": "CERDO",
+        "presentacion": "FRESCO",
+        "unidad": "CAJA",
+        "vida": "9"
+    },
+    {
+        "id": "TM067",
+        "nombre": "RACK FRANCES W AV ML CN",
+        "especie": "CORDERO",
+        "presentacion": "CONGELADO",
+        "unidad": "CAJA",
+        "vida": "365"
+    },
+    {
+        "id": "13822",
+        "nombre": "RECORTE 60\/40",
+        "especie": "CERDO",
+        "presentacion": "FRESCO",
+        "unidad": "CAJA",
+        "vida": "9"
+    }
+]

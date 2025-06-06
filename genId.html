@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generacion de ID</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.14/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="normalizes.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+    <header>
+        <a href="homepage.html"><img src="images/brand-google-home.svg" alt=""></a>
+        <h1 id="Title">Generación de ID. "Unidad de manipulacion"</h1>
+    </header>
+    <main>
+        <section class="Center_section">
+            <section>
+                <button onclick="idTar()">Generar Id</button> <p id="HU"></p>
+                <p>Codigo de Barras</p> <input type="text" id="barcode" class="barcode">
+                <script src="app.js"></script>
+                <button onclick="comprobarDato()">Enviar</button> <br>
+                <button onclick="generarPDF()">Exportar PDF</button>
+                <button onclick="exportarExcel()">Exportar Excel</button>
+            </section>
+            <section>
+                <p>Cantidad en tarima</p> <p id="cjTar"></p> <p id="kgTar"></p>
+                <p>Cantidad Total</p> <p id="cjTot"></p> <p id="kgTot"></p>
+            </section>
+            <section class="section_table">
+                <table id="detalle">
+                    <thead>
+                        <tr>
+                            <th>ID Tarima</th>
+                            <th>Lote</th>
+                            <th>Producto</th>
+                            <th>Descripcion</th>
+                            <th>KG</th>
+                            <th>CJ</th>
+                            <th>Fc Sacrificio</th>
+                            <th>Fc Empaque</th>
+                            <th>Fc Caducidad</th>
+                            <th>Codigo de Barras</th>
+                            </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+                
+            </section>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
